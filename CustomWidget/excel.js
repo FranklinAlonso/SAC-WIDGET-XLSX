@@ -303,7 +303,12 @@
               onValidate: function(e) {
       
                 var fU = this.getView().byId("idfileUploader");
-                var domRef = fU.getFocusDomRef();
+                var domRef = fU.getDomRef().querySelector("input[type='file']");
+                if (!domRef || !domRef.files || domRef.files.length === 0) {
+                    MessageToast.show("Por favor, seleccione un archivo primero");
+                    return;
+                }
+                //var domRef = fU.getFocusDomRef();
                 var file = domRef.files[0];
                 var this_ = this;
       
