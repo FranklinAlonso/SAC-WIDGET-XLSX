@@ -36,7 +36,7 @@
 
             this.addEventListener("click", event => {
                 console.log('click');
-                this.dispatchEvent(event)
+                
             });
 
             this._firstConnection = 0;            
