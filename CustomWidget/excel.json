@@ -1,5 +1,5 @@
 {
-  "id": "com.frank.delacruz.sap.sac.excel",
+  "id": "com.franklin.delacruz.sap.sac.excel",
   "version": "0.0.1",
   "name": "excel",
   "description": "Excel",
@@ -12,15 +12,15 @@
   "webcomponents": [
     {
       "kind": "main",
-      "tag": "com-frank-delacruz-sap-sac-excel",
-      "url": "http://localhost/SAC/sacexcel/excel.js",
+      "tag": "com-franklin-delacruz-sap-sac-excel",
+      "url": "https://franklinalonso.github.io/SAC-WIDGET-XLSX/CustomWidget/excel.js",
       "integrity": "",
       "ignoreIntegrity": true
     },
     {
       "kind": "styling",
-      "tag": "com-frank-delacruz-sap-sac-excel-aps",
-      "url": "http://localhost/SAC/sacexcel/aps_excel.js",
+      "tag": "com-franklin-delacruz-sap-sac-excel-aps",
+      "url": "https://franklinalonso.github.io/SAC-WIDGET-XLSX/CustomWidget/aps_excel.js",
       "integrity": "",
       "ignoreIntegrity": true
     }
